@@ -1,0 +1,4 @@
+1、StringBuffer和StringBuilder类对象能够被多次的修改，并且不产生新的未使用对象，String则不可。
+2、StringBuilder 类在 Java 5 中被提出
+3、StringBuilder和StringBuffer最大不同在于StringBuilder的方法不是线程安全的（即能同步访问）。
+4、优先性：StringBuilder > StringBuffer > String(由于StringBuilder相较于StringBuffer有速度优势，所以优先使用StringBuilder类。然而在应用程序要求线程安全的情况下，则必须使用StringBuffer类。)
